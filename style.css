@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+.banner-area{
+    width: 100%;
+    height: 100vh;
+    background: url(../images.jpeg);
+    background-position: center;
+    -webkit-backdrop-size:cover;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2vw;
+color: white;
+}
+nav a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Poppins;
+    margin-right: 25px;
+}
+.banner-areah2{
+    font-family: germania one;
+    font-size: 65px;
+    margin: 0 0 25px;
+    animation: animate 2s 1;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 45px;
+    color: white;
+    border: 2px solid white;
+    transition: .6s;
+    animation: animate 2s 1;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #262626;
+}
+.btnn{
+    text-decoration: none;
+    padding: 4px 10px;
+    color: white;
+    border: 2px solid white;
+    transition: .6s;
+    animation: animate 2s 1;
+}
+.btnn:hover{
+    background-color: #fff;
+    color: #262626;
+}
